@@ -10,4 +10,4 @@ Classification techinques used are SVM, Random Forest adn Naive Bayes. <br />
 SVM (one vs one) performs the best with ~96% accuracy. <br />
 
 Source codes: <br />
-rf_naive-bayes.m performs PCA on the data (after being treated with missing values and class imbalance) and classifies data using Random Forest and Naive Bayes algorithm.
+**rf_naive-bayes.m** performs PCA on the data (after being treated with missing values and class imbalance) and classifies data using Random Forest and Naive Bayes algorithm.
