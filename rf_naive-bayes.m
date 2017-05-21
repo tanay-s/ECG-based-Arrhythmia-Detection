@@ -44,11 +44,4 @@ for i=1:1:size(c,1)
     f_score_rf(i,1) = 2*(precision_rf(i,1)*recall_rf(i,1))/(precision_rf(i,1)+ recall_rf(i,1));
 end
 
-% figure;
-% for i=1:1:278
-%     scatter(princ_comp(i,1),princ_comp(i,2))
-%     hold on;
-% end
-% xlabel('Principal Component 1');
-% ylabel('Principal Component 2');
 
